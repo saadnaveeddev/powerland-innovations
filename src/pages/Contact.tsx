@@ -11,26 +11,26 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Visit Us',
-    details: ['PowerLand House HQ', 'Industrial Zone, Sector 5', 'New York, NY 10001'],
+    details: ['PowerLand House HQ', 'Sialkot Bypass, Gujranwala', 'Pakistan'],
     action: null,
   },
   {
     icon: Phone,
     title: 'Call Us',
-    details: ['+1 (234) 567-8900', '+1 (234) 567-8901'],
-    action: 'tel:+12345678900',
+    details: ['+92 333 8153897', '+92 3034944177'],
+    action: 'tel:+923338153897',
   },
   {
     icon: Mail,
     title: 'Email Us',
     details: ['info@powerlandhouse.com', 'support@powerlandhouse.com'],
-    action: 'mailto:info@powerlandhouse.com',
+    action: 'mailto:saad.naveed.dev@gmail.com',
   },
   {
     icon: MessageCircle,
     title: 'WhatsApp',
-    details: ['+1 (234) 567-8900', 'Quick Response'],
-    action: 'https://wa.me/12345678900',
+    details: ['+92 333 8153897  ', 'Quick Response'],
+    action: 'https://wa.me/923338153897',
   },
 ];
 
@@ -233,27 +233,16 @@ const Contact = () => {
             >
               {/* Map */}
               <div className="glass-card rounded-3xl overflow-hidden aspect-[4/3] relative group">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-primary">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-20 h-20 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:shadow-glow-yellow transition-all duration-500">
-                        <MapPin className="w-10 h-10 text-accent" />
-                      </div>
-                      <h3 className="font-display text-xl font-bold text-primary-foreground mb-2">
-                        Our Location
-                      </h3>
-                      <p className="text-primary-foreground/70 text-sm">
-                        Industrial Zone, Sector 5<br />
-                        New York, NY 10001
-                      </p>
-                    </div>
-                  </div>
-                  {/* Grid pattern overlay */}
-                  <div className="absolute inset-0 opacity-10" style={{
-                    backgroundImage: 'linear-gradient(hsl(185 80% 45%) 1px, transparent 1px), linear-gradient(90deg, hsl(185 80% 45%) 1px, transparent 1px)',
-                    backgroundSize: '30px 30px'
-                  }} />
-                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d844.110464649042!2d74.21074546954401!3d32.19232243329934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f2900156aea17%3A0xc95de3f6e4198b80!2sAJ%20Tech%20Services!5e0!3m2!1sen!2s!4v1766692026715!5m2!1sen!2s"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full h-full"
+                />
               </div>
 
               {/* Business Hours */}
@@ -268,15 +257,15 @@ const Contact = () => {
                 </div>
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Monday - Friday</span>
-                    <span className="text-foreground font-medium">8:00 AM - 6:00 PM</span>
+                    <span className="text-muted-foreground">Monday - Thursday</span>
+                    <span className="text-foreground font-medium">9:00 AM - 7:00 PM</span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Saturday</span>
-                    <span className="text-foreground font-medium">9:00 AM - 4:00 PM</span>
+                    <span className="text-muted-foreground">Saturday - Sunday</span>
+                    <span className="text-foreground font-medium">9:00 AM - 7:00 PM</span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Sunday</span>
+                    <span className="text-muted-foreground">Friday</span>
                     <span className="text-foreground font-medium">Closed</span>
                   </div>
                 </div>
