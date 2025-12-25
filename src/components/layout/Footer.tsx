@@ -56,15 +56,11 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 text-accent" />
-                <span className="text-sm">Industrial Zone, City</span>
+                <span className="text-sm">Sialkot Bypass, Gujranwala, Pakistan</span>
               </li>
               <li className="flex items-center gap-3 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-accent" />
-                <span className="text-sm">+1 234 567 890</span>
-              </li>
-              <li className="flex items-center gap-3 text-primary-foreground/70">
-                <Mail className="w-4 h-4 text-accent" />
-                <span className="text-sm">info@powerlandhouse.com</span>
+                <span className="text-sm">+92 333 8153897</span>
               </li>
             </ul>
           </div>
@@ -72,7 +68,7 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © 2024 PowerLand House. All rights reserved.
+            © 2022 PowerLand House. All rights reserved.
           </p>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-neon rounded-full animate-pulse" />
